@@ -3,6 +3,16 @@ package ru.netology.data;
 import lombok.Value;
 
 public class DataHelper {
+    private String getFirstCard = "5559000000000001";
+    private String getSecondCard = "5559000000000002";
+
+    public String getGetFirstCard() {
+        return getFirstCard;
+    }
+
+    public String getGetSecondCard() {
+        return getSecondCard;
+    }
     public DataHelper() {
     }
 
@@ -29,4 +39,5 @@ public class DataHelper {
     public static class CardInfo {
         private String cardNumber;
     }
+
 }
